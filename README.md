@@ -58,6 +58,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 - Verified successful Fleet Server connectivity and registration within the Elastic dashboard.
 
 📌 Refer to the below screenshots: (left to right)
+
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/e289227d-63a1-4935-87ec-13d61c7b8b00" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/d32f0f39-90c8-470e-a416-b0b12a7653f1" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/7ca30d3d-c8be-44fc-a0a9-0bfd10008578" />
