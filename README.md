@@ -49,13 +49,11 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshot:
 
-<img width="550" height="450" alt="Win11" src="https://github.com/user-attachments/assets/273fac62-2059-4c30-901f-39cd7dc0bac5" />
+<img width="600" height="350" alt="Win11" src="https://github.com/user-attachments/assets/273fac62-2059-4c30-901f-39cd7dc0bac5" />
 
-### 2. Fleet Architecture Planning
+### 2. Fleet Architecture Planning & Server Deployment
 - Evaluated standalone Elastic Agent deployment against Fleet Server-managed deployment.
 - Selected the Fleet Server architecture to provide centralized agent enrollment, policy deployment, configuration management, and endpoint health monitoring.
-
-### 3. Fleet Server Deployment
 - Provisioned an Ubuntu Server 22.04.4 virtual machine to host the Fleet Server.
 - Generated a Fleet Server policy through the Elastic Fleet interface.
 - Deployed the Fleet Server using the generated enrollment command.
@@ -72,7 +70,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b53d5122-b002-47f0-8dec-f4e49efbc021" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/bd86639b-6585-42bd-b491-1ec453b66c57" />
 
-### 4. Windows Elastic Agent Enrollment
+### 3. Windows Elastic Agent Enrollment
 - Generated a Windows Elastic Agent enrollment package through Fleet.
 - Configured Fleet Server communication using port `8220`.
 - Deployed the Elastic Agent on the Windows 11 endpoint.
@@ -91,7 +89,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/7b93586d-0890-47e6-978e-0a12873a5ea5" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/6d99fb17-1fd2-4702-8884-68946f5b1d58" />
 
-### 5. Sysmon Deployment & Configuration
+### 4. Sysmon Deployment & Configuration
 - Reviewed Sysmon capabilities, including process creation, network connections, image loading, process access, and DNS query monitoring.
 - Downloaded Sysmon v15.21 from Microsoft's official Sysinternals resource.
 - Applied Olaf Hartong's community-maintained Sysmon configuration to expand detection-relevant Windows telemetry.
@@ -118,7 +116,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/013f0804-9231-423c-9749-09fe3c6f6ce6" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/75d4a90d-65b1-4ede-9c61-845ea12fe700" />
 
-### 6. Elastic Agent Policy Management
+### 5. Elastic Agent Policy Management
 - Created a dedicated Windows agent policy named `MYDFIR-Windows-policy`.
 - Configured the policy to centrally manage telemetry collection for the Windows endpoint.
 - Migrated the Windows 11 endpoint to the dedicated policy.
@@ -132,7 +130,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/39c23324-dd1e-4102-b2e4-a0b030baf86d" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/19669007-26a0-4a6d-bce6-db8e6ae6719c" />
 
-### 7. Sysmon Log Ingestion
+### 6. Sysmon Log Ingestion
 - Created a custom Windows Event Log integration named `MYDFIR-Win-Sysmon`.
 - Identified the correct Sysmon Operational channel through Windows Event Viewer.
 - Configured Elastic Agent to collect events from the Sysmon Operational channel.
@@ -151,7 +149,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9fb63526-459a-4527-99ce-1cbb0c20da69" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/531309cd-a693-4062-8735-181f3b9d86e8" />
 
-### 8. Windows Defender Log Ingestion
+### 7. Windows Defender Log Ingestion
 - Created a custom Windows Event Log integration for Windows Defender security telemetry.
 - Scoped collection to selected high-value security events:
   - **1116** – Malware/threat detected
@@ -168,7 +166,7 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/06b0fd1e-6fc7-4d5d-b1ad-94cc3d34cfd0" />
 <img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/491b3542-a875-4fba-8ef0-cd4d6553a8ef" />
 
-### 9. Validation
+### 8. Validation
 - Confirmed that Sysmon telemetry was being received and indexed in Elasticsearch.
 - Confirmed that the selected Windows Defender events were being collected and indexed.
 - Used Kibana Discover to search and validate the collected endpoint telemetry.
