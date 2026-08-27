@@ -47,6 +47,10 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 - Installed VMware Tools to support endpoint management and VM operations.
 - Captured a VM snapshot to provide a recovery and rollback point.
 
+📌 Refer to the below screenshot:
+
+<img width="550" height="450" alt="Win11" src="https://github.com/user-attachments/assets/273fac62-2059-4c30-901f-39cd7dc0bac5" />
+
 ### 2. Fleet Architecture Planning
 - Evaluated standalone Elastic Agent deployment against Fleet Server-managed deployment.
 - Selected the Fleet Server architecture to provide centralized agent enrollment, policy deployment, configuration management, and endpoint health monitoring.
