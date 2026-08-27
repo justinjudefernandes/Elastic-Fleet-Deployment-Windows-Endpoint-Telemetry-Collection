@@ -97,18 +97,18 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/abc45a6f-f308-4b63-9036-2e90fa40a4d1" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/df7310c6-916d-4b09-ab4f-c2f8f1e15c93" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b1a6978f-aced-42b0-8f62-44b152f44bcb" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/23c6f6a5-520f-489b-9d8f-4fe9dde9f6f5" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/4bff148e-b358-47f2-93f8-f3ba050954d2" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9daacf06-425e-403c-8aaa-fbc7989d3ff3" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/22302ca4-ae05-4dba-946a-97742cb886b6" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/13d01601-8ddf-4b1e-9193-2e72e1635463" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/78a7b1d4-95f7-45de-b5ba-1c0cac70630e" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/47ee04ae-2f8c-4476-8bf7-fe30bdcc1dd3" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/80bdedcc-530c-4dac-8e70-247b8e0b4b4a" />
-<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/efb2fa0d-327f-44a0-9e55-56085d045063" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/abc45a6f-f308-4b63-9036-2e90fa40a4d1" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/df7310c6-916d-4b09-ab4f-c2f8f1e15c93" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/b1a6978f-aced-42b0-8f62-44b152f44bcb" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/23c6f6a5-520f-489b-9d8f-4fe9dde9f6f5" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/4bff148e-b358-47f2-93f8-f3ba050954d2" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/9daacf06-425e-403c-8aaa-fbc7989d3ff3" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/22302ca4-ae05-4dba-946a-97742cb886b6" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/13d01601-8ddf-4b1e-9193-2e72e1635463" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/78a7b1d4-95f7-45de-b5ba-1c0cac70630e" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/47ee04ae-2f8c-4476-8bf7-fe30bdcc1dd3" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/80bdedcc-530c-4dac-8e70-247b8e0b4b4a" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/efb2fa0d-327f-44a0-9e55-56085d045063" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/d45f43be-6901-41a4-addc-166e2a181b35" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/77882ede-aba7-4dd1-b73a-35206c11a9a1" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/013f0804-9231-423c-9749-09fe3c6f6ce6" />
@@ -121,6 +121,12 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/98f9f3b9-7aa3-4f74-bfc3-5fe2552e39ba" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/3ae2029f-27d3-499f-a68e-b83c33a20625" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/3cc06b9a-568e-4d2a-83fc-9fc85978990e" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/36ca7780-54e4-4580-a51a-3fff4fcb70f7" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/39c23324-dd1e-4102-b2e4-a0b030baf86d" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/19669007-26a0-4a6d-bce6-db8e6ae6719c" />
 
 ### 7. Sysmon Log Ingestion
 - Created a custom Windows Event Log integration named `MYDFIR-Win-Sysmon`.
@@ -131,6 +137,15 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/8ab09b96-c9d8-42fd-8ecf-1d5c5e5520a4" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/7210e8bc-03ae-473b-95bd-83a687526a93" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/80462cbe-e8c4-48dd-8355-80b0a2388819" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/240bd19a-f678-452e-bf65-af51f260fa1f" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/4e540587-e521-4b3d-9135-74dc24d3c90a" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/6e3251f9-0700-4c17-8525-1af0923a9467" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/bb6e4888-0f06-49ec-a2f6-a15217a8f20b" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9fb63526-459a-4527-99ce-1cbb0c20da69" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/531309cd-a693-4062-8735-181f3b9d86e8" />
 
 ### 8. Windows Defender Log Ingestion
 - Created a custom Windows Event Log integration for Windows Defender security telemetry.
@@ -143,6 +158,11 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b7029c86-020f-46a1-b07d-c678268b436e" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/1de0ebaa-8c9e-47cf-8964-ed3cf48558b4" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/e198683a-d1d5-43a0-9d36-821142ab6c21" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/06b0fd1e-6fc7-4d5d-b1ad-94cc3d34cfd0" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/491b3542-a875-4fba-8ef0-cd4d6553a8ef" />
 
 ### 9. Validation
 - Confirmed that Sysmon telemetry was being received and indexed in Elasticsearch.
@@ -152,4 +172,6 @@ Provisioned a Windows 11 endpoint and an Ubuntu-based Fleet Server, then used El
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b05f00a9-1a00-464c-bbf7-32e6465686ec" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/a16ebf9c-18da-49e5-99a9-ae5d504b80dc" />
 
